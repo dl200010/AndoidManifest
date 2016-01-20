@@ -5,8 +5,6 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="dl200010"
            fetch="https://github.com/dl200010/" />
-  <remote name="pure"
-           fetch="https://github.com/PureNexusProject/" />
   <default revision="refs/tags/android-6.0.1_r10"
            remote="aosp"
            sync-j="4" />
@@ -15,7 +13,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="mm" />
+  <project path="vendor/huawei" name="android_vendor_huawei" remote="dl200010" revision="dl_android-6.0.1_r10" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
