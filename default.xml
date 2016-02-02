@@ -482,6 +482,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/huawei" name="android_vendor_huawei" remote="dl200010" revision="dl_android-6.0.1_r10" />
+  <project path="vendor/huawei" name="android_vendor_huawei_purenexusproject" remote="dl200010" revision="dl_android-6.0.1_r10" />
 
 </manifest>
