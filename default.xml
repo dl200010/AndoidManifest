@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="dl200010" revision="dl_android-6.0.1_r16" groups="pdk" >
+  <project path="build" name="android_build" remote="dl200010" revision="DLROM" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -53,7 +53,7 @@
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="dl200010" revision="dl_android-6.0.1_r16" groups="device,angler,broadcom_pdk" />
+  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="dl200010" revision="DLROM" groups="device,angler,broadcom_pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
@@ -234,7 +234,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="dl200010" revision="dl_android-6.0.1_r16" groups="pdk" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="dl200010" revision="DLROM" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
@@ -270,7 +270,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="dl200010" revision="dl_android-6.0.1_r16" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="dl200010" revision="DLROM" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -463,8 +463,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="android_system_core" remote="dl200010" revision="dl_android-6.0.1_r16" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" remote="dl200010" revision="dl_android-6.0.1_r16" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="dl200010" revision="DLROM" groups="pdk" />
+  <project path="system/extras" name="android_system_extras" remote="dl200010" revision="DLROM" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -485,6 +485,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/huawei" name="android_vendor_huawei" remote="dl200010" revision="dl_android-6.0.1_r16" />
+  <project path="vendor/huawei" name="android_vendor_huawei" remote="dl200010" revision="DLROM" />
 
 </manifest>
