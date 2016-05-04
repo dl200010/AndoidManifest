@@ -4,11 +4,15 @@
   <remote  name="dl200010"
            fetch="https://github.com/dl200010/" />
 
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-6.0.1_r24"
+
+
+  <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
+
 
   <project path="build" name="android_build" remote="dl200010" revision="DLROM" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
